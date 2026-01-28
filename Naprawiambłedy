@@ -1,0 +1,6 @@
+name = input("Jak masz na imię? ")
+age = int(input("Ile masz lat? "))
+
+next_year_age = age + 1
+
+print("Cześć,", name, "będziesz mieć", next_year_age, "lat za rok!")
