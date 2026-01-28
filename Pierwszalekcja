@@ -1,3 +1,15 @@
 import random
-int(input("Ile masz lat? "))
-int(input("Czy masz jakieś  "))
+i = input("Jak masz na imie? ")
+print("UUUUU fajne imię")
+w = int(input("Ile masz lat? "))
+z = input("Czy masz jakieś zainteresowania? ")
+if w == 12:
+    print("masz tyle samo lat co ja")
+if z == ("programowanie"):
+    l = input("A masz jakieś lekcje? ")
+if l == ("tak"):
+    input("UUUU a gdzie sie uczysz?")
+print("UUU nie znam ale musi byc fajne")
+if l == ("nie"):
+    print("Polecam Kodland")
+
