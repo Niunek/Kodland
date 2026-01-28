@@ -1,0 +1,12 @@
+word = input("Podaj słowo: ")
+
+samo = "aeiouyąęAEIOUYĄĘ"
+count = 0
+
+for letter in word:
+    if letter in vowels:
+        count += 1
+
+print("Liczba samogłosek:", count)
+
+#Python swoją nazwę zawdzięcza serialowi Monty Python's Flying Circus, a nie wężowi, i jest znany z prostoty, wszechstronności (AI, web, skrypty) i dynamicznego typowania

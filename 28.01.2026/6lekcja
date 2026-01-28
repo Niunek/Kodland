@@ -1,0 +1,28 @@
+text = input("Wpisz tekst: ")
+
+if len(text) > 10:
+    result = text[:10] + "..."
+else:
+    result = text
+
+print("Wynik:", result)
+# Python został stworzony na przełomie 80 do 90 roku
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
