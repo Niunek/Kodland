@@ -1,0 +1,13 @@
+import random
+number = random.randint(1, 20)
+for i in range (5):
+    liczba = int(input("Podaj liczbe od 1 do 20  "))
+    if number == liczba:
+        print("Gratulacje Wygrałeś!")
+        break
+    elif number > liczba:
+        print("Liczba jest większa od twojej")
+    elif number < liczba:
+        print("Liczba jeste mniejsza od twojej")
+
+
